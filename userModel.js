@@ -23,7 +23,7 @@
 
 const mongoose = require("mongoose");
 
-mongoose.connect("mongodb://127.0.0.1:27017/loginsignupDB");
+mongoose.connect("mongodb://127.0.0.1:27017/userdetailDB");
 
 const userSchema = mongoose.Schema({
   firstName: String,
