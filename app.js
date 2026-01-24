@@ -245,11 +245,10 @@ app.post("/login", async (req, res) => {
   }
 });
 
-/* ================= HOME ================= */
+/* ================= HOME PAGE ================= */
 app.get("/home", (req, res) => {
   res.send("<h1>✅ You are successfully logged in</h1>");
 });
-
 app.listen(3000, () => {
   console.log("Server running on http://localhost:3000/signup");
 });
